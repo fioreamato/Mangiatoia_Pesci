@@ -33,9 +33,13 @@ function toggleDiv() {
 }
 
 const firebaseConfig = {
-    /*
-    Fill in firebase config
-    */
+  apiKey: "AIzaSyCqbQZIs74N7IdfRXSuLZyT5ccOtbtxmBY",
+  authDomain: "mangiatoia-pesci.firebaseapp.com",
+  databaseURL: "https://mangiatoia-pesci-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "mangiatoia-pesci",
+  storageBucket: "mangiatoia-pesci.firebasestorage.app",
+  messagingSenderId: "637712525865",
+  appId: "1:637712525865:web:dae14c827436cc2e98ca38"
 };
 firebase.initializeApp(firebaseConfig);
 
@@ -129,4 +133,5 @@ function addDiv() {
             i++;
         }
     });
+
 }
